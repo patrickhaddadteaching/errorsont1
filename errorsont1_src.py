@@ -7,8 +7,7 @@ import matplotlib.pyplot as plt
 def generate_biased_rnd_vector_bits(p_in,n_in):
     v_raw_rnd_bin=np.array(np.random.rand(n_in)<p_in,dtype=np.uint8)
     return v_raw_rnd_bin
-  
-  
+
 raw_bytes=widgets.Textarea(value='',placeholder='',description='',disabled=True,layout=widgets.Layout(width='200px',height='200px'))
 text_fontsize=12
 
