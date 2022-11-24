@@ -9,8 +9,7 @@ def generate_biased_rnd_vector_bits(p_in,n_in):
     return v_raw_rnd_bin
   
   
-  raw_bytes=widgets.Textarea(value='',placeholder='',description='',disabled=True,layout=widgets.Layout(width='200px',height='200px'))
-
+raw_bytes=widgets.Textarea(value='',placeholder='',description='',disabled=True,layout=widgets.Layout(width='200px',height='200px'))
 text_fontsize=12
 
 myfont_dict = {'family': 'serif','color':  'darkblue','weight': 'normal','size': 16}
